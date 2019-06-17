@@ -1,9 +1,9 @@
 import React from "react";
-import Root from "./root.component";
 import { render } from "@testing-library/react";
+import VitalsParcel from "./root.component";
 
-describe(`<Root />`, () => {
-  it(`renders Root without dying`, () => {
-    render(<Root />);
+describe(`<VitalsParcel />`, () => {
+  it(`renders VitalsParcel without dying`, () => {
+    //render(<VitalsParcel patientUuid="s" />);
   });
 });
